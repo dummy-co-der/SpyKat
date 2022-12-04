@@ -3,8 +3,21 @@ import pynput
 import os
 from pynput.keyboard import Key, Listener
 from termcolor import colored
-ascii_banner = pyfiglet.figlet_format("SpyKat")
-print(colored(ascii_banner, 'blue', attrs = ['bold']))
+print(colored("""
+
+  ██████  ██▓███ ▓██   ██▓ ██ ▄█▀▄▄▄     ▄▄▄█████▓
+▒██    ▒ ▓██░  ██▒▒██  ██▒ ██▄█▒▒████▄   ▓  ██▒ ▓▒
+░ ▓██▄   ▓██░ ██▓▒ ▒██ ██░▓███▄░▒██  ▀█▄ ▒ ▓██░ ▒░
+  ▒   ██▒▒██▄█▓▒ ▒ ░ ▐██▓░▓██ █▄░██▄▄▄▄██░ ▓██▓ ░ 
+▒██████▒▒▒██▒ ░  ░ ░ ██▒▓░▒██▒ █▄▓█   ▓██▒ ▒██▒ ░ 
+▒ ▒▓▒ ▒ ░▒▓▒░ ░  ░  ██▒▒▒ ▒ ▒▒ ▓▒▒▒   ▓▒█░ ▒ ░░   
+░ ░▒  ░ ░░▒ ░     ▓██ ░▒░ ░ ░▒ ▒░ ▒   ▒▒ ░   ░    
+░  ░  ░  ░░       ▒ ▒ ░░  ░ ░░ ░  ░   ▒    ░      
+      ░           ░ ░     ░  ░        ░  ░        
+                  ░ ░                             
+                  
+                             ~ By Anuj Maheshwari
+                  """, 'blue', attrs = ['bold']))
 
 # BANNER SPYKAT
 
